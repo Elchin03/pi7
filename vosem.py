@@ -3,8 +3,9 @@ import re
 def mu(x):
     r = r"\[\[\s*variable\s*list\(\s*([^)]*)\)\s*=>\s*([^.]*)"
     z = re.findall(r, x)
-    ls2 = []
     print(z)
+    ls2 = []
+
     print()
     for ints, key in z:
         ls = []
